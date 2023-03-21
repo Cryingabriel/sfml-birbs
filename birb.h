@@ -21,6 +21,7 @@ public: //public stuff can be seen/used by errbody in the clurb
 	//you *can* have the whole definitions here, but its best to have just the declarations unless they are super short
 	birb(int x, int y, int c[3]); //parameterized constructor
 	void draw(sf::RenderWindow& window);
+	void fly(sf::RenderWindow& window);
 
 };
 

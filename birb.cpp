@@ -43,3 +43,11 @@ void birb::draw(sf::RenderWindow& window) {
 	window.draw(beak);
 
 }
+
+void birb::fly(sf::RenderWindow& window) {
+	int num = rand() % 100;
+
+	if (num < 3) {
+		ypos -= 1;
+	}
+}
